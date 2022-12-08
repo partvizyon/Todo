@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'todoApp';
+  user = 'Ella';
+  items = [
+    { description: "Kahvaltı", action: "No" },
+    { description: "Spor", action: "No" },
+    { description: "Toplantı", action: "No" },
+    { description: "Sinema", action: "No" },
+  ];
 }
